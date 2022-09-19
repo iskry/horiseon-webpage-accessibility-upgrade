@@ -8,7 +8,13 @@ body {
     background-color: #d9dcd6;
 }
 
+/* converted header to a flexcontainer for positioning. edited children to flex for positionining. */
+
+/* header was previously a class and is now referenced as an element */
+
 header {
+    display: flex;
+    justify-content: space-between;
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -16,7 +22,6 @@ header {
 }
 
 header h1 {
-    display: inline-block;
     font-size: 48px;
 }
 
@@ -24,23 +29,25 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-/*"header" div is now header element*/
+header .title {
+    align-self: center;
+}
 
+/* nav within header was previously a div */
 
-header nav {
+header nav { 
+    display: flex;
     padding-top: 15px;
-    margin-right: 20px;
-    float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
-header nav iv ul {
+header nav ul {
+    display: flex;
     list-style-type: none;
 }
 
 header nav ul li {
-    display: inline-block;
     margin-left: 25px;
 }
 
@@ -191,15 +198,13 @@ p {
     font-size: 36px;
 }
 
-/*"footer" div is now a footer element*/
-
-footer {
+.footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-footer h2 {
+.footer h2 {
     font-size: 20px;
 }
