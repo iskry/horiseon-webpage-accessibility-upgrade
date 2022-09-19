@@ -3,6 +3,9 @@
 Horiseon is a webpage providing social medial solutions for all users. This is a refracted version of the Horiseon webpage to conform to semantic HTML standards. 
 
 
+<img src="/assets/images/Horiseon.png" alt="Horiseon Webpage" title="Horiseon">
+
+
 ## Installation
 
 N/A 
