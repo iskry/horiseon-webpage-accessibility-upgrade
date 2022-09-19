@@ -51,6 +51,9 @@ header nav ul li {
     margin-left: 25px;
 }
 
+
+
+
 a {
     color: #ffffff;
     text-decoration: none;
@@ -73,9 +76,6 @@ footer h2 {
     font-size: 20px;
 }
 
-section {
-    flex-wrap:wrap
-}
 
 
 .hero {
@@ -163,19 +163,27 @@ section {
     max-width: 150px;
 }
 
+
+/* changed height to auto to scale and added min-height to maintain structure */
+
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    min-height: 300px;
+    height: auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
 
+
+
+
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    height: auto;
+    min-height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
@@ -184,7 +192,8 @@ section {
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    height: auto;
+    min-height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
@@ -193,6 +202,7 @@ section {
 .search-engine-optimization img {
     max-height: 200px;
 }
+
 
 .online-reputation-management img {
     max-height: 200px;
